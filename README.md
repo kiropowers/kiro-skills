@@ -4,26 +4,24 @@
 
 ## 安装
 
-### 一键安装（推荐）
+### 使用 skills CLI（推荐）
 
 ```bash
-git clone https://github.com/kiropowers/kiro-skills.git /tmp/kiro-skills
-bash /tmp/kiro-skills/scripts/install.sh
-rm -rf /tmp/kiro-skills
+# 安装全部技能
+npx skills add kiropowers/kiro-skills -g --all
+
+# 安装单个技能
+npx skills add kiropowers/kiro-skills -g --skill skill-creator
+
+# 查看可用技能
+npx skills add kiropowers/kiro-skills --list
 ```
 
 ### 手动安装
 
 ```bash
-git clone https://github.com/kiropowers/kiro-skills.git
-cp -r kiro-skills/skills/* ~/.kiro/skills/
-```
-
-### 安装单个技能
-
-```bash
 git clone https://github.com/kiropowers/kiro-skills.git /tmp/kiro-skills
-cp -r /tmp/kiro-skills/skills/skill-creator ~/.kiro/skills/
+bash /tmp/kiro-skills/scripts/install.sh
 rm -rf /tmp/kiro-skills
 ```
 
