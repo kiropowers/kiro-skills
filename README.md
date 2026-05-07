@@ -7,7 +7,7 @@
 ### 一键安装（推荐）
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/kiro-skills.git /tmp/kiro-skills
+git clone https://github.com/kiropowers/kiro-skills.git /tmp/kiro-skills
 bash /tmp/kiro-skills/scripts/install.sh
 rm -rf /tmp/kiro-skills
 ```
@@ -15,14 +15,14 @@ rm -rf /tmp/kiro-skills
 ### 手动安装
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/kiro-skills.git
+git clone https://github.com/kiropowers/kiro-skills.git
 cp -r kiro-skills/skills/* ~/.kiro/skills/
 ```
 
 ### 安装单个技能
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/kiro-skills.git /tmp/kiro-skills
+git clone https://github.com/kiropowers/kiro-skills.git /tmp/kiro-skills
 cp -r /tmp/kiro-skills/skills/skill-creator ~/.kiro/skills/
 rm -rf /tmp/kiro-skills
 ```
